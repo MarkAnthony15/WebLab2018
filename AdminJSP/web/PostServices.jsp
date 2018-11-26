@@ -123,27 +123,22 @@
             </li>
             <li class="breadcrumb-item active">Post Services</li>
           </ol>
-             <form>
-			        <div class="card mb-3">
-				            <div class="card-header">
-				              <i class="fas fa-mail"></i>
-				                Post Services
-				            </div>
-				          <div class="form-group">
-					          <label for="name">Name:</label>
-					          	<input type="text" class="form-control" id="name">
-					          <label for="desc">Description:</label>
-					          	<textarea class="form-control" rows="5" id="desc"></textarea>
-					          <label for="prtname">Parent Name:</label>
-					          	<input type="text" class="form-control" id="prtname">
-					          <label for="price">Price:</label>
-					          	<input type="number" value="1000.00" min="0" step="0.01" data-number-to-fixed="2" data-number-stepfactor="100" 
-					          class="form-control" id="price" />
-					          <label for="images">Upload Photo</label>
-					          	<input type="file" class="form-control" name="pic" accept="image/*">
-				          </div>
-			          </div>  
-		        </form>
+	<form style="margin-right: 50%;">
+		<div class="card mb-3">
+                    <div class="card-header">
+			<i class="fas fa-mail"></i>
+			Post Services
+                    </div>
+                        <div class="form-group" style="margin-left: 5%; margin-right: 5%;">
+                            <label for="desc">Description:</label>
+                                <textarea class="form-control" rows="5" id="desc"></textarea>
+                            <label for="price">Price:</label>
+                                <input type="number" value="1000.00" min="0" step="0.01" data-number-to-fixed="2" data-number-stepfactor="100" class="form-control" id="price" />
+                            <label for="images">Upload Photo</label>
+                                <input type="file" class="form-control" name="pic" accept="image/*">
+                        </div>
+                </div>  
+            </form>
             
         </div>
         <!-- /.container-fluid -->
